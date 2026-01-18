@@ -1,13 +1,8 @@
-# Системные файлы
-.DS_Store
-Thumbs.db
-
-# Логи и временные файлы
+# Общие исключения
 *.log
 *.tmp
-*.temp
-
-# Файлы IDE
-.vscode/
-.idea/
 *.swp
+*.swo
+.DS_Store
+.idea/
+.vscode/
