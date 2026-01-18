@@ -3,7 +3,12 @@
 
 count=1
 for param in "$@"; do
-    echo "\$@ Parameter #$count = $param"
+<<<<<<< HEAD
+<<<<<<< HEAD
+    echo "Next parameter: $param"
+=======
+    echo "Next parameter: $param"
+>>>>>>> 4419ace (git-rebase 2)
     count=$(( $count + 1 ))
 done
 
